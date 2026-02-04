@@ -1,3 +1,9 @@
+/*
+  1. Server ko Create karna hai
+  2. Server ko Configure karna hai
+  
+*/
+
 const express = require("express")
 const app = express(); // Server ko create kia hai
 
