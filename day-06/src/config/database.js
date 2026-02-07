@@ -13,7 +13,7 @@
 const mongoose = require('mongoose');
 
 function connectToDb() {
-   mongoose.connect("mongodb+srv://Vishu:t89DvGnWUrAhUrEk@cluster0.z2mcqmy.mongodb.net/day-06")
+   mongoose.connect(process.env.MONGO_URI)
       .then(function () {
          console.log("Connected to database");
       })
